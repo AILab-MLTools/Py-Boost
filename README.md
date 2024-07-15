@@ -33,9 +33,9 @@ Training control, Losses/metrics, Multioutput handling strategy, Anything via cu
 
 ## SketchBoost [paper](https://openreview.net/forum?id=WSxarC8t-T)
 
-**Multioutput training**. Current state-of-atr boosting toolkits provide very limited support of multioutput training.
-And even if this option is available, training time for such tasks as multiclass/multilabel classification and multitask
-regression is quite slow because of the training complexity that scales linearly with the number of outputs. To overcome
+**Multioutput training**. Current state-of-the-art boosting toolkits offer limited support for multi-output training. 
+Even when this option is available, training times for tasks such as multiclass/multilabel classification and multitask 
+regression are quite slow due to the training complexity, which scales linearly with the number of outputs. To overcome
 the existing limitations we create **SketchBoost** algorithm that uses approximate tree structure search. As we show
 in [paper](https://openreview.net/forum?id=WSxarC8t-T) that strategy at least does not lead to performance decrease and
 often is able to improve the accuracy
